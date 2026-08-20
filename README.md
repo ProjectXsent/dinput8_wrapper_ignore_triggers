@@ -11,3 +11,6 @@ Steam Input must be disabled for testing.
 
 # Install
 Simply copy the dinput8.dll to the same folder where the game executable is.
+
+# Preview
+<img width="1500" height="650" alt="Ys Analog Drift Before and After" src="https://github.com/user-attachments/assets/cff012aa-2fd6-47af-8884-cea8b912e468" />
