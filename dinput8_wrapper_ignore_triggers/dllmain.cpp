@@ -285,7 +285,7 @@ public:
 				ss << std::hex << std::setw(8) << std::setfill('0') << didi.dwDevType;
 				Log("Device Type: 0x" + ss.str());
 
-				if (GET_DIDEVICE_TYPE(didi.dwDevType) == DI8DEVTYPE_1STPERSON && GET_DIDEVICE_SUBTYPE(didi.dwDevType) == DI8DEVTYPE1STPERSON_SIXDOF) {
+				if (GET_DIDEVICE_TYPE(didi.dwDevType) == DI8DEVTYPE_1STPERSON && GET_DIDEVICE_SUBTYPE(didi.dwDevType) == DI8DEVTYPE1STPERSON_SIXDOF || ss.str() == "00010215") {
 					Log("Device is a six degrees of freedom, first-person controller. Wrapping it.");
 					*lplpDirectInputDevice = new WrapperIDirectInputDevice8A(pRealDevice);
 				}
@@ -408,7 +408,7 @@ public:
 				ss << std::hex << std::setw(8) << std::setfill('0') << didi.dwDevType;
 				Log("Device Type: 0x" + ss.str());
 
-				if (GET_DIDEVICE_TYPE(didi.dwDevType) == DI8DEVTYPE_1STPERSON && GET_DIDEVICE_SUBTYPE(didi.dwDevType) == DI8DEVTYPE1STPERSON_SIXDOF) {
+				if (GET_DIDEVICE_TYPE(didi.dwDevType) == DI8DEVTYPE_1STPERSON && GET_DIDEVICE_SUBTYPE(didi.dwDevType) == DI8DEVTYPE1STPERSON_SIXDOF || ss.str() == "00010215") {
 					Log("Device is a six degrees of freedom, first-person controller. Wrapping it.");
 					*lplpDirectInputDevice = new WrapperIDirectInputDevice8W(pRealDevice);
 				}
