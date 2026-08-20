@@ -5,7 +5,7 @@ Triggers can still be used as buttons, but they will only be digital not analog.
 
 This is an issue for some games like the Ys Series where analog triggers are mixed up with the analog stick.
 
-Tested with the Steam/GOG release of Ys Origin, Ys I & II Complete+, Ys: The Oath in Felghana, and Ys VI: The Ark of Napishtim.
+Tested with the Steam/GOG release of Prince of Persia: The Sands of Time, Ys Origin, Ys I & II Complete+, Ys: The Oath in Felghana, and Ys VI: The Ark of Napishtim.
 
 Steam Input must be disabled for testing.
 
